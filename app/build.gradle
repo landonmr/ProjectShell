@@ -41,7 +41,7 @@ android {
 
         debug {
             buildConfigField BOOLEAN, REPORT_CRASHES, FALSE
-            signingConfig signingConfigs.debug
+            //signingConfig signingConfigs.debug
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
